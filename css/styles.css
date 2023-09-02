@@ -27,13 +27,12 @@ button{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-nav a{
+.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.66;
-    
-  
+    color:#2E2F42;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
