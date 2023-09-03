@@ -42,6 +42,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#2E2F42;
 }
 .nav-link:hover, .nav-link:focus{
     font-weight: 500;
@@ -68,7 +69,6 @@ text-decoration: none;
 .button-primary{
         background-color:#4D5AE5;
         color:#FFFFFF;
-        border:none;
         cursor: pointer;   
         font-size: 16px;
         font-weight: 500;
@@ -79,7 +79,6 @@ text-decoration: none;
 .button-primary:hover, .button-primary:focus{
         background-color: #404BBF;
         color: #FFFFFF;
-        border: none;
         cursor: pointer;
         font-size: 16px;
         font-weight: 500;
@@ -119,7 +118,7 @@ text-decoration: none;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color:#2E2F42;
+        color:#2e2f42;
 }
 .job-pos{
         color:#434455;
@@ -153,7 +152,7 @@ text-decoration: none;
 }
 .footer-logo{
         font-family: "Raleway", sans-serif;
-        color: #F4F4FD;
+        color: #4D5AE5;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.66;
@@ -162,7 +161,7 @@ text-decoration: none;
         letter-spacing: 0.03em;
 }
 .footer-web-logo{
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 .footer-info{
     background-color: #2E2F42;
