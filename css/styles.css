@@ -26,6 +26,7 @@ button{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    color:#2E2F42;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -55,8 +56,9 @@ text-decoration: none;
 }
 .hero-section{
     background-color: #2E2F42;
+    text-align: center;
 }
-h1{
+.hero-title{
         color: #FFFFFF;
         font-size: 56px;
         font-weight: 700;
@@ -65,6 +67,7 @@ h1{
 }
 .button-primary{
         background-color:#4D5AE5;
+        color:#FFFFFF;
         border:none;
         cursor: pointer;   
         font-size: 16px;
@@ -72,6 +75,16 @@ h1{
         line-height: 1.5;
         letter-spacing: 0.04em;
         
+}
+.button-primary:hover, .button-primary:focus{
+        background-color: #404BBF;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 .target-title{
         font-size: 20px;
@@ -89,19 +102,24 @@ h1{
 .team-section{
     background-color: #F4F4FD;
 }
-h2{
-
+.teams-title{
+        color:#2e2f42;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
+}
+.teammate-background{
+    background-color: #FFFFFF;
 }
 .teammate{
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color:#2E2F42;
 }
 .job-pos{
         color:#434455;
@@ -110,11 +128,21 @@ h2{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.portfolio-title{
+        color: #2e2f42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+}
 .portfolio-pic{
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2;
             letter-spacing: 0.02em;
+            color:#2e2f42;
 }
 .portfolio-des{
         color: #434455;
@@ -136,7 +164,7 @@ h2{
 .footer-web-logo{
     color: #4D5AE5;
 }
-footer{
+.footer-info{
     background-color: #2E2F42;
 }
 .footer-des{
@@ -146,14 +174,17 @@ footer{
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-.contact-info a{
+.address-info{
+    font-style: normal;
+}
+.contact-info{
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.contact-info a:hover, .contact-info a:focus {
+.contact-info:hover, .contact-info:focus {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
